@@ -11,6 +11,7 @@ function Payment() {
 
   function handlerFunction(){
      dispatch({ type:"Clear_Cart"})
+     nav("/Success")
   }
 
   return (
