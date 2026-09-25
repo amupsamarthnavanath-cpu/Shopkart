@@ -2,7 +2,7 @@ import React, { memo, useContext } from 'react'
 import '../Component/ProductCard.css'
 import { CartContext } from '../Context/CartContext'
 
-function ProductCard({ image, title, price, description }) {
+function Productcard({ image, title, price, description }) {
   const{dispatch}=useContext(CartContext);
 
   return (
@@ -18,4 +18,4 @@ function ProductCard({ image, title, price, description }) {
   )
 }
 
-export default memo(ProductCard)
+export default memo(Productcard)
