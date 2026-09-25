@@ -27,6 +27,7 @@ function Product() {
           description={item.description}
           price={item.price}
         />
+        
       ))}
     </>
   );
