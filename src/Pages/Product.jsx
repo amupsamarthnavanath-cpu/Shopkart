@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
 
-import Productcard from '../Component/Productcard';
+
+import ProductCard1 from '../Component/ProductCard1';
 
 
 function Product() {
@@ -21,7 +22,7 @@ function Product() {
       <h1>Product Page</h1>
 
       {result.map((item) => (
-        <Productcard
+        <ProductCard1
           key={item.id}
           image={item.image}
           title={item.title}
